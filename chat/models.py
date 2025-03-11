@@ -27,3 +27,5 @@ class UserProfile(models.Model):
 
     def __str__(self):
         return f"{self.user.username} - Last Seen: {self.last_seen}"
+    
+    
